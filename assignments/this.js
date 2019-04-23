@@ -54,7 +54,7 @@ const Person1 = function (person, skillz, age) {
 
 const skills2 = ['Drinking', 'Sleeping', 'Walking'];
 
-function sayHello(skills1, skills2, skills3) {
+function sayHello() {
     console.log(`Hello! My name is ${this.name}, and I like ${this.skillz} and I am ${this.age}.`);
 }
 
